@@ -1,0 +1,116 @@
+/* 0. 初期設定 */
+
+h1, h2, h3, h4, h5, h6, main, header, footer, section, p, ul, ol, img, hr {
+	margin: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+hr {
+	border-style: solid;
+	border-bottom: 0;
+}
+
+/* 1. 全体 */
+
+html {
+	font-size: 14px; /* 基本の文字サイズ */
+	line-height: 2; /* 行間。長さの単位は無く数字のみ */
+	font-family: serif; /* 明朝体にしたい場合は「serif」と指定する */
+}
+
+body {
+	background-color: #ffffff; /* 背景色 */
+	color: #000000; /* 文字色 */
+	padding-top: 60px; /* ページ上部の余白 */
+	padding-bottom: 60px; /* ページ下部の余白 */
+}
+
+/* 2. 構造 */
+
+main {
+}
+
+section {
+	margin-right: auto; /* 外側の余白（右側）：自動 */
+	margin-left: auto; /* 外側の余白（左側）：自動 */
+	margin-bottom: 64px;
+	width: 800px; /* 幅 */
+}
+
+
+/* 見出し */
+h1 {
+	font-size: 13px; /* 文字サイズ */
+}
+
+h2 {
+	font-size: 14px; /* 文字サイズ */
+ margin-left: 15em;
+ margin-bottom:2em;
+}
+
+h3 {
+	font-size: 24px; /* 文字サイズ */
+	font-weight: bold; /* 文字を太字にしている */
+	 margin-left: 5em;
+}
+
+/* 画像 */
+
+img {
+	margin-bottom: 1em;
+}
+
+/* テキスト */
+
+p {
+  margin-top: 2em;
+	margin-bottom: 1em; /* 下部の余白を指定 */
+}
+
+ol{
+  margin-top: 2em;
+	margin-bottom: 2em;
+}
+.center {
+	text-align: center; /* テキストをセンター揃え */
+}
+
+.right {
+	text-align: right; /* テキストを右寄せ */
+}
+
+.left {
+	text-align: left; /* テキストを左寄せ */
+}
+
+.caption {
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+}
+
+/* 罫線 */
+
+hr {
+	margin-top: 4em;
+	margin-bottom: 4em;
+	border-color: #cccccc;
+	border-width: 1px;
+}
+
+/* ボタン */
+
+.button {
+  margin-top: 2em;
+	display: inline-block;
+	background-color: #ff00ff; /* 背景色 */
+	padding: 0.25em 1em; /* 上下左右の内側の余白を指定 */
+	color: #ffffff;
+	text-decoration: none; /* リンクの下線をここでは表示しない */
+	border-radius: 1em; /* ボタンの角を丸くする */
+}
